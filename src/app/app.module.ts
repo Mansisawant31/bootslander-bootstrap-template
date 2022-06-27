@@ -3,14 +3,38 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { GallaryComponent } from './gallary/gallary.component';
+import { FeaturesComponent } from './features/features.component';
+import { TeamComponent } from './team/team.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { DropdownComponent } from './dropdown/dropdown.component';
+import { ContactComponent } from './contact/contact.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { InnerPageComponent } from './inner-page/inner-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    AboutComponent,
+    GallaryComponent,
+    FeaturesComponent,
+    TeamComponent,
+    PricingComponent,
+    DropdownComponent,
+    ContactComponent,
+    NavbarComponent,
+    FooterComponent,
+    InnerPageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

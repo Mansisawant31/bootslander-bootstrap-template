@@ -1,0 +1,11 @@
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
